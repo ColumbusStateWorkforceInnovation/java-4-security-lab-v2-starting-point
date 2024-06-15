@@ -10,7 +10,7 @@ This lab implements security using Spring Security, JWT, and OAauth2.
 4. In Keycloak, create a new realm called `security-lab`
 5. Create a new client called `jwt-client`
 6. Enable Client Authentication and Authorization for the client
-7. *IMPORTANT*: Regenerate the client secret.
+7. *IMPORTANT*: Regenerate the client secret. Navigate to the `Credentials` tab for the client and click on `Regenerate` on the `Secret` field.
 8. Create a new user called `java4user` with the email verified enabled.
 9. Set the password for the user to `password1234`, with temporary disabled.
 10. Optionally, navigate to Realm Settings -> Tokens and set the Access Token Lifespan to 30 minutes.
