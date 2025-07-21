@@ -36,5 +36,6 @@ out/
 ### VS Code ###
 .vscode/
 
+### data ###
 keycloak_data
 postgres_data
